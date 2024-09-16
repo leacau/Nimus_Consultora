@@ -1,3 +1,5 @@
+import './WhatsAppButton.css';
+
 import React, { useEffect, useState } from 'react';
 
 function WhatsAppButton() {
@@ -14,8 +16,9 @@ function WhatsAppButton() {
 
 	return (
 		<a
+			id='WAB'
 			href='https://wa.me/5493425051513?text=Hola%2C%20estoy%20interesado%20en%20los%20servicios%20de%20consultor%C3%ADa%20de%20Nimus%20Consultora.'
-			className='fixed bottom-12 right-12 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 focus:bg-green-600 transition-all transform animate__animated animate__bounceIn animate__delay-1s hover:animate-none'
+			className='WAB fixed bottom-20 right-12 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 focus:bg-green-600 transition-all transform animate__animated animate__bounceIn animate__delay-1s hover:animate-none'
 			target='_blank'
 			rel='noopener noreferrer'
 			aria-label='Iniciar conversación por WhatsApp'
